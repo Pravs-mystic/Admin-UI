@@ -1,0 +1,72 @@
+
+.box{
+    width: 60%;
+    margin:auto;
+}
+.heading{
+    color:blue;
+    font-family:'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.container1, .container2{
+    box-sizing: border-box;
+    justify-content: center;
+     margin-bottom: 15px;
+}
+
+#searchBar{
+   width: 80%;
+   padding: 4px 8px;
+  
+}
+
+.searchbtn{
+    border-radius: 10px;
+}
+
+
+
+table{
+    width: 100%;
+}
+
+th, td{
+text-align: left;
+width: 25%;
+}
+
+.container3{
+    box-sizing: border-box;
+    display: flex;
+    font-size: 20px;
+    
+}
+
+#DeleteSelected-btn{
+    float: left;
+   background-color:red; 
+   color: white; 
+   border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+  }
+.pagination {
+    width: 60%;
+   margin: auto;
+   text-align: center;
+}
+.pagination a{
+  padding: 3px 12px;
+  margin: 5px;
+  text-decoration: none; 
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

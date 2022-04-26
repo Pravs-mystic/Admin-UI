@@ -1,0 +1,17 @@
+.datagrid{
+    height: 400px;
+    width: 60%;
+    margin: auto;
+}
+
+
+.editusers{
+    padding: 5px 10px;
+    color: rgba(4, 75, 4, 0.918);
+
+}
+.deleteusers{
+     padding: 5px 10px;
+    color: red;
+
+}
